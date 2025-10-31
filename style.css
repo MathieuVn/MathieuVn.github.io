@@ -1,0 +1,64 @@
+:root {
+    --vanilla-bg: #F3E5AB;
+    --vanilla-light: #F9F3D8;
+    --vanilla-dark: #E8D89A;
+    --strawberry-fg: #FC5A8D;
+    --strawberry-dark: #E04876;
+}
+
+body {
+    background-color: var(--vanilla-bg);
+    min-height: 100vh;
+}
+
+.navbar {
+    background-color: var(--strawberry-fg) !important;
+}
+
+.navbar-brand,
+.nav-link {
+    color: var(--vanilla-bg) !important;
+    font-size: 1.5rem;
+    font-family: "Share Tech Mono", monospace;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.nav-link:hover {
+    color: white !important;
+    background-color: var(--strawberry-dark);
+    border-radius: 5px;
+}
+
+.navbar-brand {
+    font-weight: 700;
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.brand-logo {
+    font-size: 1.8rem;
+    display: inline-block;
+}
+
+.container {
+    margin-top: 2rem;
+}
+
+h1 {
+    color: var(--strawberry-fg);
+}
+
+.email-link {
+    color: var(--strawberry-fg);
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+
+.email-link:hover {
+    color: var(--strawberry-dark);
+    text-decoration: underline;
+}
